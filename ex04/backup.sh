@@ -1,3 +1,2 @@
 name=$(date +"%c" | tr ' ' '_' | tr ':' '_'  | sed 's/\.//g' )
-name=backup_$name
-echo $name
+tar -cvzf /home/apprenant/Documents/backup/backup_${name}.tar.gz /home/apprenant/Images
