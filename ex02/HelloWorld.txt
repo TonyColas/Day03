@@ -1,0 +1,2 @@
+nc -l port > file_output
+cat file_to_send | nc IP port 
